@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #0A09e0;
+    background-color: #03034a;
     color: #a2a2e4;
 }
 .navbar a:visited{
@@ -37,11 +37,22 @@ body, footer{
 }
 main{
     background-color: #a2a2e4;
-    padding: 1em;
+    padding: 2em;
     color: #2d2d3e;
 }
 footer{
     text-align: center;
     padding: 1em;
     font-style: italic;
+}
+#intro img{
+    height: 14em;
+    float: right;
+}
+#intro{
+    height: 24em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    padding-right: 7em;
 }
