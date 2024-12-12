@@ -17,14 +17,13 @@ nav img{
     height: 2.5em;
     width: 6.5em;
 }
-body{
-    background-color: #a2a2e4;
-}
-footer{
+body, footer{
     background-color: #7373d5;
 }
 .ResumeBox{
     display: block;
+    height: 12em;
+    padding: 1em;
     box-shadow: #000000 2px 2px;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -35,4 +34,14 @@ footer{
 }
 .ResumeOff{
     display: none;
+}
+main{
+    background-color: #a2a2e4;
+    padding: 1em;
+    color: #2d2d3e;
+}
+footer{
+    text-align: center;
+    padding: 1em;
+    font-style: italic;
 }
