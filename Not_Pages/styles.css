@@ -1,6 +1,10 @@
-#navbar{
+.navbar{
     background-color: #0A09e0;
     color: #a2a2e4;
+}
+.navbar a:visited{
+    color:#a2a2e4;
+    text-decoration: none;
 }
 nav img{
     height: 3em;
