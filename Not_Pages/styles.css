@@ -1,8 +1,21 @@
-nav{
+#navbar{
     background-color: #0A09e0;
     color: #a2a2e4;
 }
 nav img{
     height: 3em;
     width: 3em;
+}
+#contact{
+    font-size: 90%;
+}
+#contact img{
+    height: 3em;
+    width: 3em;
+}
+body{
+    background-color: #a2a2e4;
+}
+footer{
+    background-color: #7373d5;
 }

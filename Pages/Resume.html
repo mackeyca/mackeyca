@@ -8,20 +8,80 @@
         <link rel="stylesheet" href="../Not_Pages/styles.css">
     </head>
     <body>
+        <div id="navbar" role="navigation">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a> 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="./Resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./Projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./Details.html">Project Details</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./Contact.html">Contact Me</a></li>
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+          </div>
+        <main>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: HTML, CSS, Java, Python, SQL</li>
+                <li>Software: Microsoft Office, Adobe Photoshop, Premier Pro</li>
+                <li>Speaking Languages: English</li>
+            </ul>
+            <h2>Work Experience</h2>
+            <h3>Summary</h3>
+            <ul>
+                <li>2.5 years of customer service</li>
+                <li>Trained upwards of 20 employees</li>
+            </ul>
+            <div id="ResumeSorter">
+                <div id="ResumeButtons">
+                    <button id="toggle-resume">Resume</button>
+                    <button id="toggle-job3">Apr24-Aug24</button>
+                    <button id="toggle-job2">Feb24-Apr24</button>
+                    <button id="toggle-job1">Aug21-Aug23</button>
+                </div>
+                <div id="ResumeHolder">
+                    Download the full pdf here
+                </div>
+                <div id="Job1">
+                    <h3>Great Wolf Lodge (Mason, OH)</h3>
+                    <ul>
+                        <li>Nominated for employee of the month, won "Platinum Paw" award.</li>
+                        <li>Helped with assigning daily work positions for a crew of 7, and helped train 21 employees.</li>
+                        <li>Moved and sorted daily stock. Stored and sorted weekly stock.</li>
+                        <li>Served and cashiered hundreds of guests daily.</li>
+                    </ul>
+                </div>
+                <div id="Job2">
+                    <h3>Target (Cincinnati, OH)</h3>
+                    <ul>
+                        <li>Assisted customers through their checkout process, typically 50 in a shift.</li>
+                        <li>Restocked products during closing hours.</li>
+                        <li>Provided customers with directional assistance.</li>
+                    </ul>
+                </div>
+                <div id="Job3">
+                    <h3>Kings Island (Kings Island, OH)</h3>
+                    <ul>
+                        <li>Assisted with moving, storing, and sorting weekly stock.</li>
+                        <li>Served and/or cashiered hundred of guests daily.</li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        <main></main>
+        </main>
         <footer></footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
