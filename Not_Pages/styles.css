@@ -23,3 +23,16 @@ body{
 footer{
     background-color: #7373d5;
 }
+.ResumeBox{
+    display: block;
+    box-shadow: #000000 2px 2px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-width: thin;
+    border-style: solid;
+}
+.ResumeOff{
+    display: none;
+}
