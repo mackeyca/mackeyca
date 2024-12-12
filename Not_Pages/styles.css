@@ -31,6 +31,8 @@ body, footer{
     margin-right: 3em;
     border-width: thin;
     border-style: solid;
+    background-color: #5454e3;
+    color: #c4c4e2;
 }
 .ResumeOff{
     display: none;
@@ -55,4 +57,8 @@ footer{
     padding-top: 2em;
     padding-bottom: 7em;
     padding-right: 7em;
+}
+#ResumeButtons button{
+    background-color: #2c2cd2;
+    color:#c4c4e2;
 }
